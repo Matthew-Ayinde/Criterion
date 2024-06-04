@@ -6,7 +6,6 @@ const HomePage = () => {
     <div>
       <HomePageComponent />
 
-      <p>HOMEPAGE....</p>
 
     </div>
   )

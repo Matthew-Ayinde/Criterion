@@ -46,10 +46,10 @@ const Navbar = () => {
     <nav
       className={`w-full fixed z-30 ${
         scrollBg // scrollBg || homePathname
-          ? "bg-white/95 text-black"
+          ? "lg:bg-yellow-500 text-black"
           : reservedPathname && !scrollBg
           ? "lg:bg-black bg-white text-white"
-          : "lg:bg-white bg-white lg:text-black text-white"
+          : "lg:bg-transparent bg-white lg:text-black text-white"
       }  ${open ? "h-screen" : ""}`}
     >
       <div className="flex items-center justify-between lg:px-20 px-6 py-4 w-full mx-auto lg:relative h-90px">
@@ -102,11 +102,11 @@ const Navbar = () => {
 
         {/* mobile-menu */}
         <ul
-          className={`lg:hidden absolute h-screen w-full top-90px z-40 py-32 duration-500 ease-in-out transition-all ${
+          className={`lg:hidden absolute h-screen w-full z-40 mt-96 py-32 duration-500 ease-in-out transition-all ${
             open ? "left-0 bg-white" : "left-[-100%]"
           }`}
         >
-          <div className="space-y-8 px-6">
+          <div className="space-y-8 px-6 mt-32">
             {navLinks.map((link, index) => (
               <Link
                 key={index}
@@ -128,23 +128,19 @@ const Navbar = () => {
 
 const navLinks = [
   {
-    name: "Works",
-    url: "/our-works",
-  },
-  {
-    name: "Services",
-    url: "/services",
-  },
-  {
-    name: "What we do",
+    name: "ABOUT US",
     url: "/about-us",
   },
   {
-    name: "Careers",
+    name: "THE TEAM",
+    url: "/team",
+  },
+  {
+    name: "CAREERS",
     url: "/careers",
   },
   {
-    name: "Contact us",
+    name: "CONTACT US",
     url: "/contact-us",
   },
 ];

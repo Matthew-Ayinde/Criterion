@@ -1,4 +1,6 @@
+import Navbar from '@/components/navbar'
 import './globals.css'
+import FooterComponent from '@/components/footer'
 
 export const metadata = {
   title: 'Next.js',
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='mx-auto'>
+        <Navbar />
+        {children}
+        <FooterComponent />
+        </body>
     </html>
   )
 }
