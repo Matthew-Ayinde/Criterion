@@ -52,7 +52,7 @@ const Navbar = () => {
           : "lg:bg-transparent bg-white lg:text-black text-white"
       }  ${open ? "h-screen" : ""}`}
     >
-      <div className="flex items-center justify-between lg:px-20 px-6 py-4 w-full mx-auto lg:relative h-90px">
+      <div className="flex items-center justify-between lg:pl-[180px] lg:pr-[196px] px-6 py-4 w-full mx-auto lg:relative h-90px">
         {/* logo */}
         <div className="lg:w-fit w-full z-50 flex items-center justify-between">
           <Link
