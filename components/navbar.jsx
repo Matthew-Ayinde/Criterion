@@ -46,7 +46,7 @@ const Navbar = () => {
     <nav
       className={`w-full fixed z-30 ${
         scrollBg // scrollBg || homePathname
-          ? "lg:bg-yellow-500 text-black"
+          ? "lg:bg-[#f4f4f4] text-black"
           : reservedPathname && !scrollBg
           ? "lg:bg-black bg-white text-white"
           : "lg:bg-transparent bg-white lg:text-black text-white"

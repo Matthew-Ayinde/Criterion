@@ -19,3 +19,38 @@
   justify-content: center;
   align-items: center;
 }
+
+.backgroundImage {
+  background-image: url('/Web/Backgrounds/PNG/Hero-BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.formBackground {
+  background-image: url('/Web/Backgrounds/PNG/Form-BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.developBackground {
+  background-image: url('/Web/Backgrounds/PNG/Develop-BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.transcendBackground {
+  background-image: url('/Web/Backgrounds/PNG/Transcending-BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.embedBackground {
+  background-image: url('/Web/Backgrounds/PNG/Embed-BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
