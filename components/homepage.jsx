@@ -94,6 +94,20 @@ const HomePageComponent = () => {
     {/* Transcending BG */}
 
     <div className='transcendBackground'>
+      <div className="lg:pl-[180px] lg:pr-[196px]  ">
+
+        <div style={{ position: "relative", width: "100%", height: "294px", zIndex: 4 }}>
+        <Image
+          alt="Mountains"
+          src='/embed-image.png'
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover",
+          }}
+        />
+        </div>
+      </div>
       <div className='flex flex-row lg:pl-[180px] lg:pr-[196px] py-32'>
         <div className='w-2/5'>
           <div className='font-normal text-[32px] text-[#191919] pr-5'>
@@ -156,7 +170,7 @@ const HomePageComponent = () => {
           <div className='uppercase font-light text-[72px] leading-[64px]'>Develop a cutting-edge sustainable property.</div>
         </div>
       <div>
-        <div style={{ position: "relative", width: "100%", height: "500px" }}>
+        <div style={{ position: "relative", width: "100%", height: "500px"  }}>
         <Image
           alt="Mountains"
           src="/develop-home.png"
